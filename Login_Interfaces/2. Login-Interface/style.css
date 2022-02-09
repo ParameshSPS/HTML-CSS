@@ -1,0 +1,215 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    background: rgb(255, 255, 255);
+}
+
+.icon {
+    width: 100%;
+    height: 100px;
+}
+
+.logo {
+    text-align: center;
+    font-size: 80px;
+    text-decoration: none;
+    color: red;
+}
+
+.menu {
+    width: 100%;
+    height: 50px;
+    background: skyblue;
+}
+
+ul li {
+    list-style: none;
+    font-size: 25px;
+    margin-left: 100px;
+    padding-top: 10px;
+    float: left;
+}
+
+ul li a {
+    text-decoration: none;
+    font-family:'Times New Roman';
+    font-weight: bold;
+    color: black;
+    padding-left: 50px;
+}
+
+ul li a:hover {
+    color: red;
+}
+
+.columnleft {
+    width: 300px;
+    height: 80vh;
+    background: skyblue;
+}
+
+.columnleft h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+    padding-top: 30px;
+    text-decoration: underline;
+}
+
+.columnleft ul li {
+    list-style: none;
+    width: 300px;
+    font-size: 25px;
+    float: none;
+    padding-top: 15px;
+    margin: auto;
+    padding-left: 20px;
+}
+
+.content {
+    width: 500px;
+    height: 450px;
+    color: rgb(255, 0, 0);
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    border: 4px solid white;
+    border-radius: 20px;padding-top: 10px;
+}
+
+.content h1 {
+    font-family: 'Times New Roman';
+    font-size: 70px;
+    text-align: center;
+}
+
+.content span {
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    text-shadow: rgb(255, 0, 0);
+}
+
+.form {
+    width: 400px;
+    height: 405px;
+    background: skyblue;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    top: 35%;
+    left: 65%;
+    position: absolute;
+}
+
+.form h2 {
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Verdana;
+    font-weight: bold;
+    background-color: black;
+    color: red;
+    margin-top: 10px;
+    border-radius: 15px;
+    margin-left: 100px;
+    padding-top: 5px;
+
+}
+
+.form h1 {
+    width: 300px;
+    height: 40px;
+    font-family: Verdana;
+    text-align: center;
+    color: rgb(255, 0, 0);
+    font-size: 25px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 50px;
+    padding-top: 10px;
+}
+
+.form input{
+    width: 300px;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 25px;
+    background: transparent;
+    border: 2px solid rgb(255, 0, 0);
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 15px;
+    margin-left: 50px;
+}
+
+.form input:focus {
+    outline: none;
+}
+
+.form .btn {
+    width: 150px;
+    height: 40px;
+    font-size: 25px;
+    font-family: Verdana;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    background: rgb(0, 0, 0);
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 125px;
+    border: none;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.form ::placeholder {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.form .par {
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+.form .button {
+    width: 150px;
+    height: 40px;
+    text-decoration: none;
+    font-family: Verdana;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    font-size: 20px;
+    background: rgb(0, 0, 0);
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 20px;
+    margin-left: 125px;
+    cursor: pointer;
+}
+
+
+
+

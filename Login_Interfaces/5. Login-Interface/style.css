@@ -1,0 +1,229 @@
+body {
+    background-image: url(Image/1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: cursive;
+    margin-top: 25px;
+}
+
+.glass-box {
+    width: 930px;
+    height: 530px;
+    background: radial-gradient(rgba(255,255,255,0.6));
+    box-shadow: 0 0 30px rgba(255,255,255,0.6);
+    border-radius: 20px;
+    backdrop-filter: blur(3px);
+}
+
+i {
+    position: relative;
+    margin-left: 20px;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+i:hover {
+    color: #000;
+}
+
+nav {
+    width: 60%;
+    background-color: #ff6b14;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+} 
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: black;
+}
+
+.search-box input {
+    float: right;
+    margin: -32px 40px;
+    width: 27%;
+    height: 30px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.search-box ::placeholder, .search-box input {
+    color: white;
+    font-size: 20px;
+    padding-bottom: 3px;
+}
+
+.search-box input:hover {
+    border-bottom: 2px solid #ff6b14;
+}
+
+.icon {
+    float: right;
+    margin: -30px 40px;
+}
+
+.icon i {
+    font-size: 20px;
+    color: white;
+    transition: 0.2s ease;
+}
+
+.icon i:hover {
+    color: #ff6b14;
+}
+
+.social-media {
+    float: right;
+    width: 80px;
+    height: 230px;
+    background-color: #ff6b14;
+    margin-top: 226px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.icon1 i {
+    margin: 6px 30px;
+}
+
+.box {
+    display: flex;
+    margin-top: 40px;
+}
+
+.login-box {
+    width: 250px;
+    height: 350px;
+    margin: 0 40px;
+    border: 5px solid #ff6b14;
+    border-radius: 5%;
+    background: radial-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3));
+    color: white;
+    padding: 10px 10px;
+}
+
+.login-box:hover {
+    border: 5px solid white;
+}
+
+.login-box h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 1px;
+    color: #ff6b14;
+}
+
+.login-box input {
+    width: 90%;
+    background: transparent;
+    outline: none;
+    border: none;
+    color: white;
+    border-bottom: 2px solid white;
+    letter-spacing: 1px;
+    transition: 0.2s ease;
+    font-size: 15px;
+}
+
+.login-box input:hover {
+    border-bottom: 2px solid #ff6b14;
+}
+
+.login-box ::placeholder {
+    color: white;
+}
+
+.login-box h5 {
+    text-align: center;
+}
+
+.login-box h5 a {
+    color: #ff6b14;
+    font-size: 15px;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.login-box h5 a:hover {
+    color: white;
+}
+
+.login-box button {
+    margin-left: 80px;
+    padding: 6px 18px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: cursive;
+    font-size: 15px;
+}
+
+
+.login-box button:hover {
+    color: #ffffff;
+    background: #ff6b14;
+}
+
+.desc {
+    width: 410px;
+    height: 340px;
+    border: 5px solid #ff6b14;
+    border-radius: 5%;
+    padding: 15px;
+}
+
+.desc:hover {
+    border: 5px solid white;
+}
+
+.desc h1 {
+    color: #ff6b14;
+    margin-bottom: 30px;
+    margin-top: 1px;
+    text-align: center;
+}
+
+.desc p {
+    color: white;
+    text-align: center;
+}
+
+.desc button {
+    padding: 6px 18px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: cursive;
+    margin: 20px 4px;
+    transition: 00.2s ease;
+}
+
+.desc button:hover {
+    color: white;
+    background: #ff6b14;
+}
